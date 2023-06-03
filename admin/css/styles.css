@@ -1,0 +1,163 @@
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  width: 500px; /* adjust this to your desired width */
+  height: 500px; /* adjust this to your desired height */
+}
+.delete-button {
+  background-color: red;
+}
+
+.admin-photo-thumbnail{
+
+  width: 200px;
+  border-radius: 5px;
+}
+ 
+.user_image{
+  height: 70px;
+  width: 70px;
+}
+.edit_user_image{
+   max-width: 100%; 
+   height: auto;
+}.user-form {   
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-image input[type="file"] {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  opacity: 0; /* Add this line */
+  position: absolute; /* Add this line */
+}
+
+ 
+
+.user-details {
+  padding: 20px;
+}
+
+
+/* edit photo page side bar style */
+.photo-info-box {
+
+    border: 1px solid #e5e5e5;
+     -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.04);
+     box-shadow: 0 1px 1px rgba(0,0,0,.04);
+     background-color: #fff;
+   
+   
+   }
+   
+   .info-box-header {
+     padding: 6px;
+    border-bottom: 1px solid #e5e5e5;
+      -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.04);
+     box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    background-color: #fff;
+   
+   }
+   
+     
+   
+   
+   .photo-info-box .box-inner {
+   border-top: 1px solid #e5e5e5;
+   background-color: #fff;
+   padding: 6px;
+   
+   }
+   
+   .photo-info-box .box-inner .text {
+   padding: 7px 9px 19px;
+   
+   }
+   
+   .photo-info-box .box-inner .data {
+   
+       font-weight: bold;
+   }
+   
+   .photo-info-box .info-box-footer{
+   
+   border-top: 1px solid #ddd;
+   background-color: #ddd;
+   padding: 10px;
+   
+   }
+    
+
+         /************************** photo modal library code **************************/
+
+
+
+.modal-dialog {
+width: 90% !important;
+
+
+
+}
+
+.modal-body {
+overflow: auto;
+height: 500px !important;
+min-height: 300px !important;
+}
+
+.modal_thumbnails {
+
+    width: 150px;
+    height: 100px !important;
+}
+
+#set_user_image {
+
+margin:10px;
+
+}
+
+
+#modal_sidebar {
+
+position: fixed !important;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ***********    pagination ****************** */
+
+  .active   {
+
+  background-color: aqua ;
+  color: black !important;
+
+}
+
+
+
+
+
+
+
+
+
+   
+   
